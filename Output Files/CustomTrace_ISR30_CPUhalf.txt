@@ -1,0 +1,31 @@
+0, 108, CPU BURST  
+108, 1, switch to kernel mode
+109, 30, context saved
+139, 1, find vector 20 in memory position 0x0028
+140, 1, load address 0X07B7 into the PC
+141, 176, Get information from reader
+317, 176, Call device driver to perform task
+493, 1, IRET
+494, 108, CPU BURST
+602, 1, switch to kernel mode
+603, 30, context saved
+633, 1, find vector 20 in memory position 0x0028
+634, 1, load address 0X07B7 into the PC
+635, 352, Save information to memory
+987, 1, IRET
+988, 108, CPU BURST
+1096, 1, switch to kernel mode
+1097, 30, context saved
+1127, 1, find vector 20 in memory position 0x0028
+1128, 1, load address 0X07B7 into the PC
+1129, 176, Give information to printer
+1305, 176, Call device driver to perform task
+1481, 1, IRET
+1482, 108, CPU BURST
+1590, 1, switch to kernel mode
+1591, 30, context saved
+1621, 1, find vector 20 in memory position 0x0028
+1622, 1, load address 0X07B7 into the PC
+1623, 352, Save information to memory
+1975, 1, IRET
+1976, 108, CPU BURST
